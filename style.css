@@ -40,7 +40,7 @@
     
     nav ul li a{
         color: oldlace;
-        font-size: 17px;
+        font-size: 12px;
         padding: 7px 13px;
         border-radius: 3px;
         text-transform: uppercase;
@@ -48,14 +48,14 @@
     
     a.active,a:hover{
         background: #800080;
-        transition: .5s;
+        transition: .10s;
         }
     
         .checkbtn{
             font-size: 30px;
             color: oldlace;
             float: right;
-            line-height: 80px;
+            line-height: 40px;
             margin-right: 40px;
             cursor: pointer;
             display: none;
