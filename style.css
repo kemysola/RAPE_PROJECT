@@ -202,3 +202,19 @@
             background-size: cover;
             height: calc(100vh - 100px);
         }
+        .parallax-container{
+            background-image: url("images/image5.jpg");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax{
+            background-image: url("images/image6.jpg");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
