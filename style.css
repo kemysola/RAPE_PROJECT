@@ -86,30 +86,30 @@
             display: flex;
         }
     
-        .footer .footer-content h1,
-        .footer .footer-content h2 {
+        .footer .footer-content h3,
+        .footer .footer-content h4 {
             color: oldlace;
         }
     
-        .footer .footer-content .about h1 span{
+        .footer .footer-content .about h3 span{
             color: #898989;
         }
     
         .footer .footer-content .about .contact span{
             display: block;
-            font-size: 0.5cm;
+            font-size: 0.4cm;
             margin-bottom: 8px;
         }
     
          .footer .footer-content .about .socials a {
              border: 1px solid gray;
-             width: 45px;
-             height: 18x;
+             width: 30px;
+             height: 33px;
              padding-top: 0px;
              margin-right: 5px;
              text-align: center;
              display: inline-block;
-             font-size: 1.1cm;
+             font-size: 0.7cm;
              border-radius: 5px;
          }
         
