@@ -31,21 +31,34 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#contacts">Contact Us</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
             <li><a href="team.html">Our Team</a></li>
             <li><a href="#feedback">Feedback</a></li>
+            <li><a href='sub.html'>Subscribe</a></li>
         </ul>
         <ul class="sidenav purple" id="mobile-demo">
           <li><a href="#home" class="white-text">Home</a></li>
             <li><a href="#about" class="white-text">About</a></li>
             <li><a href="#services" class="white-text">Services</a></li>
-            <li><a href="#contacts" class="white-text">Contacts</a></li>
+            <li><a href="contact.php" class="white-text">Contacts</a></li>
             <li><a href="#feedback"class="white-text">Feedback</a></li>
+            <li><a href='sub.html' class='white-text'>Subscribe</a></li>
+
         </ul>
     </nav>
   </div>
   </header>
   
+  
+  <div class='center'>
+<div class="deconstructed">
+  
+  <div class='purple-text'>LOVE IS NOT RAPE</div>
+  <div class='white-text'>LOVE IS NOT RAPE</div>
+  <div class='purple-text'>LOVE IS NOT RAPE</div>
+  <div class='purple-text'>LOVE IS NOT RAPE</div>
+</div>
+</div>
 
   <div class="slider">
     <ul class="slides">
@@ -195,6 +208,15 @@ mysqli_close($conn);
 
 
 ?>
+<div class=' center'>
+<div class="deconstructed">
+  
+  <div class='purple-text'>Speak</div>
+  <div class='purple-text'>Speak</div>
+  <div class='purple-text'>Speak</div>
+  <div class='purple-text '>Speak</div>
+</div>
+</div>
 
   <section>
     <div class= "container"><h2 class="post center-align">Recent Post</h2></div>
@@ -227,81 +249,8 @@ mysqli_close($conn);
 
 </div>
 
-<section id="contacts">
-<h4 class="center">Contact Us</h4>
-<h4 class="center purple-text">__________</h4>
- <form  action="action.php" method="POST">
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-      <div class="container">
-      <div class="input-field col s6">
-      <i class="material-icons prefix">person</i>
 
-      <input type="text" name="firstname" required>
-      <label for="firstname">First Name</label>
-    </div>
-    <div class="input-field col s6">
-      <i class="material-icons prefix">person</i>
 
-      <input type="text" name="lastname" required>
-      <label for ="last name">Last Name</label>
-    </div>
-  </div>
-</div>
-</div>
-<div class="row">
-  <div class="col s12">
-    <div class="container">
-    <div class="input-field col s6">
-      <i class="material-icons prefix">email</i>
-
-      <input type="email" name="email" required>
-      <label for="email">Email</label>
-    </div>
-    <div class="input-field col s6">
-                <i class="material-icons prefix">phone</i>
-
-      <input type="text" name="phonenumber" required>
-      <label for ="phoneno">Phone Number</label>
-  </div>
-</div>
-</div>
-</div>
-<div class="row">
-  <div class="col s12">
-    <div class="container">
-      <div class="input-field s12">
-       <i class="material-icons prefix">location_on</i>
-
-        <input type="text" name="address" required>
-        <label for ="address">Address</label>
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-      <div class="container">
-      <div class="row">
-        <div class="input-field col s12">
-          <i class="material-icons prefix">message</i>
-          <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
-          <label for="textarea1">Message</label>
-        </div>
-      </div>
-    </div>
-
-</h5>
-</div>
-
-<div class="container center">
-  <input type="submit" name="submit" value="submit" class="waves-effect waves-light btn purple">
-  <!-- <a href='#' class="waves-effect waves-light btn purple">Contact us</a> -->
-</div>
-</div>
-</section>
- </form>
 
 
 <br>
