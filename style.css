@@ -441,7 +441,7 @@
             height: calc(100vh - 100px);
         }*/
         .parallax-container{
-            background-image: url("images/image5.jpg");
+            background-image: url("image/image5.jpg");
             height: 80%;
             background-attachment: fixed;
             background-position: center;
@@ -450,14 +450,14 @@
         }
 
         .para{
-             background-image: url("images/image4.jpg");
+             background-image: url("image/image4.jpg");
             height: 50%;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
         }
         .parallax{
-            background-image: url("images/image6.jpg");
+            background-image: url("image/image6.jpg");
             height: 80%;
             background-attachment: fixed;
             background-position: center;

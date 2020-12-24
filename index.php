@@ -69,28 +69,28 @@
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="images/image2.jpeg"> <!-- random image -->
+        <img src="image/image2.jpeg"> <!-- random image -->
         <div class="caption center-align">
           
         </div>
       </li>
       <li>
-        <img src="images/image3.jpeg"> <!-- random image -->
+        <img src="image/image3.jpeg"> <!-- random image -->
         <div class="caption left-align">
         </div>
       </li>
       <li>
-        <img src="images/image6.jpg"> <!-- random image -->
+        <img src="image/image6.jpg"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
       <li>
-        <img src="images/silence.jpg"> <!-- random image -->
+        <img src="image/silence.jpg"> <!-- random image -->
         <div class="caption center-align">
         </div>
       </li>
       <li>
-        <img src="images/image5.jpg"> <!-- random image -->
+        <img src="image/image5.jpg"> <!-- random image -->
         <div class="caption left-align">
         </div>
       </li>
@@ -158,14 +158,14 @@
   <!--images goes here-->
   <div class="row">
     <div class="col s4 l4 m4">
-      <img src="images/image2.jpeg" class="materialboxed responsive-img">
+      <img src="image/image2.jpeg" class="materialboxed responsive-img">
     </div>
     <div class="col s4 l4 m4">
-            <img src="images/speakout.jpg" class='responsive-img materialboxed'>
+            <img src="image/speakout.jpg" class='responsive-img materialboxed'>
 
     </div>
     <div class="col s4 l4 m4">
-            <img src="images/image3.jpeg" class='responsive-img materialboxed'>
+            <img src="image/image3.jpeg" class='responsive-img materialboxed'>
 
     </div>
 
@@ -259,6 +259,49 @@
     
   </div>
 
+  <?php 
+
+$conn = mysqli_connect("localhost","root","","rapeproject");
+if(!$conn){
+    echo "connection error:";
+};
+
+
+//get story data from db
+$select_query= "SELECT name,story,image FROM admin";
+$result = mysqli_query($conn, $select_query);
+//$admin_details = mysqli_fetch_assoc($result);
+$admin = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+// end of connection
+mysqli_close($conn);
+
+
+?>
+
+  <section>
+    <div class= "container"><h2 class="post center-align">Recent Post</h2></div>
+        <div class= "container">
+            <div class="row">
+                <?php foreach($admin as $admin_item){ ?>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                        <img src="image/<?php echo $admin_item["image"]; ?>" width ="250px" height="250px">
+                        <span class="card-title white-text"><?php echo $admin_item["name"];?> <span>
+                        </div>
+                        <div class="card-content">
+                        <p><?php echo$admin_item["story"];?></p>
+                        </div>
+                        <div class="card-action">
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <?php }?>
+            </div>
+        </div>    
+    </section>
 
 <!--footer-->
 <section id="feedback">
