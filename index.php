@@ -21,24 +21,18 @@
 <body>
   <header>
     <div class="navbar-fixed">
-    <nav class="nav-wrapper purple">
-      <div class='container'>
-      <a href="#" class="brand-logo">Ask For Help</a>
+    <nav class="navbar nav-wrapper purple">
+      <div class='max-width'>
+      <a href="#" class="brand-logo" > SpeakUp. </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-      <ul class="right hide-on-med-and-down">
+      <ul class="right hide-on-med-and-down menu">
     
-    <!--<nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i> 
-        </label>
-        <label class="logo">Ask For Help</label>
-        <ul>-->
-            <li><a href="#home">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#contacts">Contact Us</a></li>
+            <li><a href="team.html">Our Team</a></li>
             <li><a href="#feedback">Feedback</a></li>
         </ul>
         <ul class="sidenav purple" id="mobile-demo">
@@ -51,20 +45,7 @@
     </nav>
   </div>
   </header>
-    <!--Page-wrapper-->
-    <!--<div class="page-wrapper">-->
-   <!--<section>-->
-       
   
-
-
-  <!--</div>-->
-  <!--end of page-wrapper-->
-  <!--contact form-->
-
-  <!--column1-->
-
-
 
   <div class="slider">
     <ul class="slides">
@@ -75,7 +56,7 @@
         </div>
       </li>
       <li>
-        <img src="image/image3.jpeg"> <!-- random image -->
+        <img src="image/image8.jpg"> <!-- random image -->
         <div class="caption left-align">
         </div>
       </li>
@@ -90,7 +71,7 @@
         </div>
       </li>
       <li>
-        <img src="image/image5.jpg"> <!-- random image -->
+        <img src="image/image15.jpeg"> <!-- random image -->
         <div class="caption left-align">
         </div>
       </li>
@@ -128,7 +109,6 @@
 
  <div class="parallax-container">
     
-    
   </div>
 
   <section id="services">
@@ -165,16 +145,88 @@
 
     </div>
     <div class="col s4 l4 m4">
-            <img src="image/image3.jpeg" class='responsive-img materialboxed'>
+            <img src="image/image13.jpeg" class='responsive-img materialboxed'>
 
     </div>
-
-
+  
   </div>
+  <div class="row">
+    <div class="col s4 l4 m4">
+            <img src="image/image8.jpg" class='responsive-img materialboxed' >
+
+    </div>
+    <div class="col s4 l4 m4">
+            <img src="image/silence.jpg" class='responsive-img materialboxed'>
+
+    </div>
+    <div class="col s4 l4 m4">
+            <img src="image/image4.jpg" class='responsive-img materialboxed'>
+
+    </div>
+    </div>
 </section>
 
+
+
+<section>
+          <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur labore inventore fugit voluptates accusamus dolores, eaque illo veniam alias dolorum natus, qui tempora error, debitis expedita ullam est rerum aut unde mollitia sequi quam incidunt aliquid. Deleniti impedit dolorem quas est incidunt facilis! Possimus iure ratione maiores magnam, totam illo quasi soluta? Cum.</p>
+          </div>
+      </section>
+
+    
+
+<?php 
+
+$conn = mysqli_connect("localhost","root","","rapeproject");
+if(!$conn){
+    echo "connection error:";
+};
+
+
+//get story data from db
+$select_query= "SELECT name,story,image FROM admin";
+$result = mysqli_query($conn, $select_query);
+//$admin_details = mysqli_fetch_assoc($result);
+$admin = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+// end of connection
+mysqli_close($conn);
+
+
+?>
+
+  <section>
+    <div class= "container"><h2 class="post center-align">Recent Post</h2></div>
+        <div class= "container">
+            <div class="row">
+                <?php foreach($admin as $admin_item){ ?>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                        <img src="image/<?php echo $admin_item["image"]; ?>" width ="250px" height="250px">
+                        <span class="card-title white-text"><?php echo $admin_item["name"];?> <span>
+                        </div>
+                        <div class="card-content">
+                        <p><?php echo$admin_item["story"];?></p>
+                        </div>
+                        <div class="card-action">
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <?php }?>
+            </div>
+        </div>    
+    </section>
+
+
 <br>
 <br>
+<div class="para">
+
+</div>
+
 <section id="contacts">
 <h4 class="center">Contact Us</h4>
 <h4 class="center purple-text">__________</h4>
@@ -253,67 +305,19 @@
 
 
 <br>
-<div class="para">
 
-    
-    
-  </div>
-
-  <?php 
-
-$conn = mysqli_connect("localhost","root","","rapeproject");
-if(!$conn){
-    echo "connection error:";
-};
-
-
-//get story data from db
-$select_query= "SELECT name,story,image FROM admin";
-$result = mysqli_query($conn, $select_query);
-//$admin_details = mysqli_fetch_assoc($result);
-$admin = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-// end of connection
-mysqli_close($conn);
-
-
-?>
-
-  <section>
-    <div class= "container"><h2 class="post center-align">Recent Post</h2></div>
-        <div class= "container">
-            <div class="row">
-                <?php foreach($admin as $admin_item){ ?>
-                <div class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image">
-                        <img src="image/<?php echo $admin_item["image"]; ?>" width ="250px" height="250px">
-                        <span class="card-title white-text"><?php echo $admin_item["name"];?> <span>
-                        </div>
-                        <div class="card-content">
-                        <p><?php echo$admin_item["story"];?></p>
-                        </div>
-                        <div class="card-action">
-                        <a href="#">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <?php }?>
-            </div>
-        </div>    
-    </section>
 
 <!--footer-->
 <section id="feedback">
-   <!--<div class="footer">
+   <div class="footer">
        <div class="footer-content">
-           <div class="footer-section about">-->
+            <!--<div class="footer-section about">
                 <footer class="page-footer purple center">
                   <div class='container'>
                 <h4 class="center">Ask For Help</h4>
                 <h5>
                    This is where rape victims can ask for help.
-               </h5>
+               </h5> -->
 
                
 
