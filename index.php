@@ -178,6 +178,7 @@
 <section id="contacts">
 <h4 class="center">Contact Us</h4>
 <h4 class="center purple-text">__________</h4>
+ <form  action="action.php" method="POST">
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -185,13 +186,13 @@
       <div class="input-field col s6">
       <i class="material-icons prefix">person</i>
 
-      <input type="text" required>
+      <input type="text" name="firstname" required>
       <label for="firstname">First Name</label>
     </div>
     <div class="input-field col s6">
       <i class="material-icons prefix">person</i>
 
-      <input type="text" required>
+      <input type="text" name="lastname" required>
       <label for ="last name">Last Name</label>
     </div>
   </div>
@@ -203,13 +204,13 @@
     <div class="input-field col s6">
       <i class="material-icons prefix">email</i>
 
-      <input type="email" required>
+      <input type="email" name="email" required>
       <label for="email">Email</label>
     </div>
     <div class="input-field col s6">
                 <i class="material-icons prefix">phone</i>
 
-      <input type="text" required>
+      <input type="text" name="phonenumber" required>
       <label for ="phoneno">Phone Number</label>
   </div>
 </div>
@@ -221,7 +222,7 @@
       <div class="input-field s12">
        <i class="material-icons prefix">location_on</i>
 
-        <input type="text" required>
+        <input type="text" name="address" required>
         <label for ="address">Address</label>
       </div>
     </div>
@@ -233,7 +234,7 @@
       <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">message</i>
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
           <label for="textarea1">Message</label>
         </div>
       </div>
@@ -243,10 +244,12 @@
 </div>
 
 <div class="container center">
-  <a href='#' class="waves-effect waves-light btn purple">Contact us</a>
+  <input type="submit" name="submit" value="submit" class="waves-effect waves-light btn purple">
+  <!-- <a href='#' class="waves-effect waves-light btn purple">Contact us</a> -->
 </div>
 </div>
 </section>
+ </form>
 
 
 <br>
