@@ -28,29 +28,23 @@
 
       <ul class="right hide-on-med-and-down menu">
     
-            <li><a href="index.php">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="team.html">Our Team</a></li>
-            <li><a href="#feedback">Feedback</a></li>
-            <li><a href='sub.html'>Subscribe</a></li>
         </ul>
         <ul class="sidenav purple" id="mobile-demo">
-          <li><a href="#home" class="white-text">Home</a></li>
-            <li><a href="#about" class="white-text">About</a></li>
-            <li><a href="#services" class="white-text">Services</a></li>
+            <li><a href="about.html" class="white-text">About</a></li>
+            <li><a href="service.html" class="white-text">Services</a></li>
             <li><a href="contact.php" class="white-text">Contacts</a></li>
-            <li><a href="#feedback"class="white-text">Feedback</a></li>
-            <li><a href='sub.html' class='white-text'>Subscribe</a></li>
-
+            <li><a href="team.html" class="white-text">Our Team</a></li>
         </ul>
     </nav>
   </div>
   </header>
   
   
-  <div class='center'>
+ <!-- <div class='center'>
 <div class="deconstructed">
   
   <div class='purple-text'>LOVE IS NOT RAPE</div>
@@ -58,7 +52,7 @@
   <div class='purple-text'>LOVE IS NOT RAPE</div>
   <div class='purple-text'>LOVE IS NOT RAPE</div>
 </div>
-</div>
+</div>-->
 
   <div class="slider">
     <ul class="slides">
@@ -257,7 +251,6 @@ mysqli_close($conn);
 
 
 <!--footer-->
-<section id="feedback">
    <div class="footer">
        <div class="footer-content">
             <!--<div class="footer-section about">
@@ -284,12 +277,7 @@ mysqli_close($conn);
                    <span><i class="fas fa-envelope"></i> &nbsp; info@pearlsafrica.org</span>
                </div>
                <br>-->
-             <div class="ins">
-                   <a href="#"><i class="fab fa-facebook"></i></a>
-                   <a href="#"><i class="fab fa-instagram"></i></a>
-                   <a href="#"><i class="fab fa-twitter"></i></a>
-                   <a href="#"><i class="fab fa-youtube"></i></a>
-                 </div>
+            
                </div>
                
            <!--</div>
@@ -327,9 +315,16 @@ mysqli_close($conn);
        </div>-->
 
 
-       <!--<div class="footer-bottom">-->
+       <div class="footer-bottom">
            &copy;Fight Against Rape | Designed by PearlsAfrica Team-8
-       </div>
+                </div>
+    
+       <div class="ins">
+                   <a href="#"><i class="fab fa-facebook"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
    </div>
  </div>
 </section>
