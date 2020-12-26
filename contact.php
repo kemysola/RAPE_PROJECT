@@ -29,18 +29,16 @@
       <ul class="right hide-on-med-and-down menu">
     
             <li><a href="index.php">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contacts">Contact Us</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
             <li><a href="team.html">Our Team</a></li>
-            <li><a href="#feedback">Feedback</a></li>
         </ul>
         <ul class="sidenav purple" id="mobile-demo">
-          <li><a href="#home" class="white-text">Home</a></li>
-            <li><a href="#about" class="white-text">About</a></li>
-            <li><a href="#services" class="white-text">Services</a></li>
-            <li><a href="#contacts" class="white-text">Contacts</a></li>
-            <li><a href="#feedback"class="white-text">Feedback</a></li>
+          <li><a href="index.php" class="white-text">Home</a></li>
+            <li><a href="about.html" class="white-text">About</a></li>
+            <li><a href="service.html" class="white-text">Services</a></li>
+            <li><a href="team.html" class="white-text">Our Team</a></li>
+</ul>
         </ul>
     </div>
   </nav>
@@ -121,29 +119,29 @@
 </div>
 </section>
  </form>
-<?php
-
-/*if($_P0ST['submit']){
-  echo 'The form was submitted';
-}
- else {
-echo 'Please fill in';
- }
-echo '</html>';*/
-if(count($_P0ST)>0) echo 'form submitted';
-
-
-
-
-
-?>
-
 
 
 <br>
 
 
 
+ 
+<script>
+    $(document).ready(function(){
+     $('.sidenav').sidenav();
+  
+  });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--jquery-->
+  <script src="//code.tidio.co/0tvvgfewzghszonp8qn2eb0tzuugvo25.js" async></script>
+  
+  
+  
+  <script src='team.js'></script>
+  </body>
+  </html>
 
 
 
