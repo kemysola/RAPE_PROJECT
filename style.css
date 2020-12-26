@@ -28,10 +28,70 @@
         font-family: 'Ubuntu',sans-serif;
     }
     
+
+       .footer-bottom{
+          padding: 2px;
+          text-align: center;
+          float: left;
+          width: 60%;
+       }
+
         .ins{
-            font-weight: 200px;
-            font-size: 30px;
+            /*font-weight: 200px;*/
+            font-size: 20px;
+            text-align: right;
+            float: right;
+            width: 40%;  
         }
+
+       .service-head{
+         color: gray;         
+       }
+
+       .servicelist{
+         text-align: center;
+         color: purple;
+       }
+
+       .aboutus{
+         text-align: center;
+         color: gray;
+       }
+       .row::after{
+         content:icon;
+         display: table;
+         clear: both;
+       }
+
+       .col.s12.l6{
+
+       }
+
+       .card-content{
+         background-color: violet;
+       }
+ 
+      .img-container{
+        background-image: url(image/image6.jpg);
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+
+      .inner-container{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        color: white;
+        height: auto;
+        margin-top: 200px;
+      }
+
+      h4{
+        font-size: 7em;
+        font-family: "Shadows into Light";
+      }
     
         .parallax-container{
             background-image: url("image/image5.jpg");
