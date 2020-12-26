@@ -49,7 +49,7 @@
 <section id="contacts">
 <h4 class="center">Contact Us</h4>
 <h4 class="center purple-text">__________</h4>
- <form  action="action.php" method="POST">
+ <form method="POST" action ='<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>'>
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -122,20 +122,9 @@
 </section>
  </form>
 <?php
-
-/*if($_P0ST['submit']){
-  echo 'The form was submitted';
+if(isset($_POST['submit'])){
+  echo '<p>Thank You!!!</p>';
 }
- else {
-echo 'Please fill in';
- }
-echo '</html>';*/
-if(count($_P0ST)>0) echo 'form submitted';
-
-
-
-
-
 ?>
 
 
