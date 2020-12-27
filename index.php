@@ -27,13 +27,15 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
       <ul class="right hide-on-med-and-down menu">
-    
+            <li><a href="index.php">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="service.html">Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="team.html">Our Team</a></li>
         </ul>
         <ul class="sidenav purple" id="mobile-demo">
+        <li><a href="index.php">Home</a></li>
+
             <li><a href="about.html" class="white-text">About</a></li>
             <li><a href="service.html" class="white-text">Services</a></li>
             <li><a href="contact.php" class="white-text">Contacts</a></li>
@@ -92,14 +94,10 @@
   <br>
 <section id="about">
   <div class="container">
+    <h5>Rape is sexual assault in which you didn’t agree to. It can happen to anyone, and if you've been raped, it's not your fault regardless of whether you were sober, knew your attacker, had willingly had sex with them before, the clothes you were wearing, or anything else.Rape is a felony, which is one of the most serious types of crimes.</h5>
     <div class="row">
       <div class="col l6 m6 s12">
-        <!--<p class="text1">You are welcome here to report any case at any time. We are here for you! you are never alone. If you have just been through a tragic incident of sexual assault, know that there is still hope for you.</p>-->
-        
-        
-       <h5> Rape is a traumatic experience that impacts the victim in a physical, psychological, and sociological way, Even though the effects and aftermath of rape differs among victims, individuals tend to suffer from similar issues found within these three categories.</h5>
 
-      </div>
       <div class="col l6 m6 s12 purple white-text"><!--add purple background-->
        <!-- <p class="text1">Websites like this,___, are here to see you through the aftermath of rape, from speaking out to getting mental and medical care and possibly preventing similar cases.</p>-->
             <h5>Recovering from sexual assault takes time, and the healing process can be painful. But you can regain your sense of control, rebuild your self-worth, and learn to heal. We are here to see you through, your recovery is our responsibility, from speaking out, to getting mental and medical care.</h5>
@@ -120,8 +118,8 @@
 
   <section id="services">
     <div class="container center">
-    <h2>Do you know</h2>
-      <h4 class='purple-text'>__________</h4>
+    <h3>Do you know</h3>
+      <h4 class='purple-text'>_______</h4>
       <p class="text2">About 2 million Nigerian girls experience sexual abuse annually and only 28 percent is reported.<br>#SPEAK UP</p>
       Sexual violence is shockingly common in our society. According to the Centers for Disease Control and Prevention (CDC), nearly 1 in 5 women in the U.S. are raped or sexually assaulted at some point in their lives, often by someone they know and trust. In some Asian, African, and Middle Eastern countries, that figure is even higher. Sexual assault isn’t limited to women; many men and boys suffer rape and sexual trauma each year.
       Regardless of age or gender, the impact of sexual violence goes far beyond any physical injuries. The trauma of being raped or sexually assaulted can be shattering, leaving you feeling scared, ashamed, and alone or plagued by nightmares, flashbacks, and other unpleasant memories. The world doesn’t feel like a safe place anymore. You no longer trust others. You don’t even trust yourself. You may question your judgment, your self-worth, and even your sanity. You may blame yourself for what happened or believe that you’re “dirty” or “damaged goods.” Relationships may also feel dangerous and intimacy may be impossible.
@@ -177,7 +175,12 @@
 
 <section>
           <div class="container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur labore inventore fugit voluptates accusamus dolores, eaque illo veniam alias dolorum natus, qui tempora error, debitis expedita ullam est rerum aut unde mollitia sequi quam incidunt aliquid. Deleniti impedit dolorem quas est incidunt facilis! Possimus iure ratione maiores magnam, totam illo quasi soluta? Cum.</p>
+            <h5>You may have heard of “date rape” or “acquaintance rape,” in which the victim knows their attacker, as opposed to a “stranger rape.” But it’s all the same crime. Most rapes are committed by someone the attacker knows. The long-term effects of any rape can be extreme, both physically and emotionally. But there is help.Rape-affirming beliefs are embedded in our language: “She was dressed like a slut. She was asking for it,”
+It is part of popular song lyrics: “I know you want it.”
+It is normalized by objectifying women and calling them names in pop culture and media.
+You have the power to choose to leave behind language and lyrics that blame victims, objectify women and excuse sexual harassment. What a woman is wearing, what and how much she had to drink, and where she was at a certain time, is not an invitation to rape her.
+Rape culture affects us all, regardless of gender identity, sexuality, economic status, race, religion or age. Rooting it out means leaving behind restrictive definitions of gender and sexuality that limit a person’s right to define and express themselves.
+Certain characteristics such as sexual orientation, disability status or ethnicity, and some contextual factors, increase women’s vulnerability to violence.</h5>
           </div>
       </section>
 
@@ -213,7 +216,10 @@ mysqli_close($conn);
 </div>
 
   <section>
-    <div class= "container"><h2 class="post center-align">Recent Post</h2></div>
+    <div class= "container">
+      <h2 class="post center-align">Recent Post</h2>
+      <h6 class='green-text center'>_____________</h6>
+    </div>
         <div class= "container">
             <div class="row">
                 <?php foreach($admin as $admin_item){ ?>

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Team</title>
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--material-icons-->
     <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
@@ -27,27 +27,28 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
       <ul class="right hide-on-med-and-down menu">
-    
             <li><a href="index.php">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="service.html">Services</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
             <li><a href="team.html">Our Team</a></li>
         </ul>
         <ul class="sidenav purple" id="mobile-demo">
-          <li><a href="index.php" class="white-text">Home</a></li>
+        <li><a href="index.php">Home</a></li>
+
             <li><a href="about.html" class="white-text">About</a></li>
             <li><a href="service.html" class="white-text">Services</a></li>
+            <li><a href="contact.php" class="white-text">Contacts</a></li>
             <li><a href="team.html" class="white-text">Our Team</a></li>
-</ul>
         </ul>
-    </div>
-  </nav>
-</div>
-</header>
+    </nav>
+  </div>
+  </header>
+
 <section id="contacts">
 <h4 class="center">Contact Us</h4>
 <h4 class="center purple-text">__________</h4>
- <form method="POST" action ='<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>'>
+ <form method="POST" action ='action.php'>
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -111,6 +112,9 @@
 
 </h5>
 </div>
+<div class="container purple-text center">
+  <p id="sumi"></p>
+</div>
 
 <div class="container center">
   <input type="submit" name="submit" value="submit" class="waves-effect waves-light btn purple">
@@ -119,15 +123,7 @@
 </div>
 </section>
  </form>
-<<<<<<< HEAD
-=======
-<?php
-if(isset($_POST['submit'])){
-  echo '<p>Thank You!!!</p>';
-}
-?>
 
->>>>>>> 45ec65e59b01c67d123da620fe9ae0abc88f99dc
 
 
 <br>
@@ -141,6 +137,20 @@ if(isset($_POST['submit'])){
   
   });
   </script>
+  <script>
+  /*let form = document.getElementByTagName('form')[0];
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert("submitted")
+  });*/
+  $('form').on('submit', function(){
+    //alert('submitted');
+    document.getElementById('sumi').innerHTML ="Submitted.Thank you.";
+
+  });
+</script>
+
+
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <!--jquery-->
