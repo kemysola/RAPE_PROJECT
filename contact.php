@@ -19,10 +19,8 @@
     <title>Speak Up</title>
 </head>
 <body>
-  <header>
-    <div class="navbar-fixed">
-    <nav class="navbar nav-wrapper purple">
-      <div class='max-width'>
+<nav class="nav-wrapper purple">
+<div class="container">
       <a href="#" class="brand-logo" > SpeakUp. </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
@@ -32,18 +30,17 @@
             <li><a href="service.html">Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="team.html">Our Team</a></li>
-        </ul>
-        <ul class="sidenav purple" id="mobile-demo">
-        <li><a href="index.php">Home</a></li>
+      </ul>
+    <ul class="sidenav purple" id="mobile-demo">
 
-            <li><a href="about.html" class="white-text">About</a></li>
-            <li><a href="service.html" class="white-text">Services</a></li>
-            <li><a href="contact.php" class="white-text">Contacts</a></li>
-            <li><a href="team.html" class="white-text">Our Team</a></li>
-        </ul>
+      <li><a href="index.php" class="white-text">Home</a></li>
+      <li><a href="about.html" class="white-text">About</a></li>
+      <li><a href="service.html" class="white-text">Services</a></li>
+      <li><a href="contact.php" class="white-text">Contact Us</a></li>
+      <li><a href="team.html"  class="white-text">Our Team</a></li>
+    </ul>
+    </div>
     </nav>
-  </div>
-  </header>
 
 <section id="contacts">
 <h4 class="center">Contact Us</h4>
@@ -127,7 +124,23 @@
 
 
 <br>
+<footer class="page-footer purple">
+ 
 
+      <div class="footer-copyright">
+           <div class="container">
+           &copy;Fight Against Rape | Designed by PearlsAfrica Team-8
+           <a class="grey-text text-lighten-4 right" href="#!"></a>
+             <div class="ins">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+       </div>
+           </div>
+         </div>
+       </footer>
+     
 
 
  
@@ -150,6 +163,11 @@
   });
 </script>
 
+<script>
+         $(document).ready(function(){
+          $('.sidenav').sidenav();
+});
+      </script>
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

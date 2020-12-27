@@ -19,10 +19,10 @@
     <title>Speak Up</title>
 </head>
 <body>
-  <header>
-    <div class="navbar-fixed">
-    <nav class="navbar nav-wrapper purple">
-      <div class='max-width'>
+  <!-- <header>
+    <div class="navbar-fixed"> -->
+    <nav class="nav-wrapper purple">
+      <div class="container">
       <a href="#" class="brand-logo" > SpeakUp. </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
@@ -32,18 +32,19 @@
             <li><a href="service.html">Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="team.html">Our Team</a></li>
-        </ul>
-        <ul class="sidenav purple" id="mobile-demo">
-        <li><a href="index.php">Home</a></li>
+      </ul>
+    <ul class="sidenav purple" id="mobile-demo">
 
-            <li><a href="about.html" class="white-text">About</a></li>
-            <li><a href="service.html" class="white-text">Services</a></li>
-            <li><a href="contact.php" class="white-text">Contacts</a></li>
-            <li><a href="team.html" class="white-text">Our Team</a></li>
-        </ul>
+      <li><a href="index.php" class="white-text">Home</a></li>
+      <li><a href="about.html" class="white-text">About</a></li>
+      <li><a href="service.html" class="white-text">Services</a></li>
+      <li><a href="contact.php" class="white-text">Contact Us</a></li>
+      <li><a href="team.html"  class="white-text">Our Team</a></li>
+    </ul>
+    </div>
     </nav>
-  </div>
-  </header>
+  <!-- </div>
+  </header> -->
   
   
  <!-- <div class='center'>
@@ -59,13 +60,13 @@
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="image/image2.jpeg"> <!-- random image -->
+        <img src="image/image14.jpeg"> <!-- random image -->
         <div class="caption center-align">
-          
+         
         </div>
       </li>
       <li>
-        <img src="image/image8.jpg"> <!-- random image -->
+        <img src="image/20.jpeg"> <!-- random image -->
         <div class="caption left-align">
         </div>
       </li>
@@ -77,6 +78,7 @@
       <li>
         <img src="image/silence.jpg"> <!-- random image -->
         <div class="caption center-align">
+        
         </div>
       </li>
       <li>
@@ -94,15 +96,15 @@
   <br>
 <section id="about">
   <div class="container">
-    <h5>Rape is sexual assault in which you didn’t agree to. It can happen to anyone, and if you've been raped, it's not your fault regardless of whether you were sober, knew your attacker, had willingly had sex with them before, the clothes you were wearing, or anything else.Rape is a felony, which is one of the most serious types of crimes.</h5>
+    <h6>Rape is sexual assault in which you didn’t agree to. It can happen to anyone, and if you've been raped, it's not your fault regardless of whether you were sober, knew your attacker, had willingly had sex with them before, the clothes you were wearing, or anything else.Rape is a felony, which is one of the most serious types of crimes.</h6>
     <div class="row">
       <div class="col l6 m6 s12">
-        <h5> Rape is a traumatic experience that impacts the victims in a physical,psychological and social way.Even though the effects and aftermath of rape differentiate among the victims.Individuals tends to suffer more among this three cases.</h5>
+        <h6> Rape is a traumatic experience that impacts the victims in a physical,psychological and social way.Even though the effects and aftermath of rape differentiate among the victims.Individuals tends to suffer more among this three cases.</h6>
       </div>
 
       <div class="col l6 m6 s12 purple white-text"><!--add purple background-->
        <!-- <p class="text1">Websites like this,___, are here to see you through the aftermath of rape, from speaking out to getting mental and medical care and possibly preventing similar cases.</p>-->
-            <h5>Recovering from sexual assault takes time, and the healing process can be painful. But you can regain your sense of control, rebuild your self-worth, and learn to heal. We are here to see you through, your recovery is our responsibility, from speaking out, to getting mental and medical care.</h5>
+            <h6>Recovering from sexual assault takes time, and the healing process can be painful. But you can regain your sense of control, rebuild your self-worth, and learn to heal. We are here to see you through, your recovery is our responsibility, from speaking out, to getting mental and medical care.</h6>
 
        <br>
 
@@ -120,12 +122,11 @@
 
   <section id="services">
     <div class="container center">
-    <h3>Do you know</h3>
-      <h4 class='purple-text'>_______</h4>
-      <p class="text2">About 2 million Nigerian girls experience sexual abuse annually and only 28 percent is reported.<br>#SPEAK UP</p>
+    <h3>Do you know?</h3>
+      <h6 class='purple-text'>_____________</h6>
+      <h6>About 2 million Nigerian girls experience sexual abuse annually and only 28 percent is reported.<br>#SPEAK UP</p>
       Sexual violence is shockingly common in our society. According to the Centers for Disease Control and Prevention (CDC), nearly 1 in 5 women in the U.S. are raped or sexually assaulted at some point in their lives, often by someone they know and trust. In some Asian, African, and Middle Eastern countries, that figure is even higher. Sexual assault isn’t limited to women; many men and boys suffer rape and sexual trauma each year.
-      Regardless of age or gender, the impact of sexual violence goes far beyond any physical injuries. The trauma of being raped or sexually assaulted can be shattering, leaving you feeling scared, ashamed, and alone or plagued by nightmares, flashbacks, and other unpleasant memories. The world doesn’t feel like a safe place anymore. You no longer trust others. You don’t even trust yourself. You may question your judgment, your self-worth, and even your sanity. You may blame yourself for what happened or believe that you’re “dirty” or “damaged goods.” Relationships may also feel dangerous and intimacy may be impossible.
-
+      Regardless of age or gender, the impact of sexual violence goes far beyond any physical injuries. The trauma of being raped or sexually assaulted can be shattering, leaving you feeling scared, ashamed, and alone or plagued by nightmares, flashbacks, and other unpleasant memories. The world doesn’t feel like a safe place anymore. You no longer trust others. You don’t even trust yourself. You may question your judgment, your self-worth, and even your sanity. You may blame yourself for what happened or believe that you’re “dirty” or “damaged goods.” Relationships may also feel dangerous and intimacy may be impossible.</h6>
 
       </div>
     
@@ -177,16 +178,16 @@
 
 <section>
           <div class="container">
-            <h5>You may have heard of “date rape” or “acquaintance rape,” in which the victim knows their attacker, as opposed to a “stranger rape.” But it’s all the same crime. Most rapes are committed by someone the attacker knows. The long-term effects of any rape can be extreme, both physically and emotionally. But there is help.Rape-affirming beliefs are embedded in our language: “She was dressed like a slut. She was asking for it,”
+            <h6>You may have heard of “date rape” or “acquaintance rape,” in which the victim knows their attacker, as opposed to a “stranger rape.” But it’s all the same crime. Most rapes are committed by someone the attacker knows. The long-term effects of any rape can be extreme, both physically and emotionally. But there is help.Rape-affirming beliefs are embedded in our language: “She was dressed like a slut. She was asking for it,”
 It is part of popular song lyrics: “I know you want it.”
 It is normalized by objectifying women and calling them names in pop culture and media.
 You have the power to choose to leave behind language and lyrics that blame victims, objectify women and excuse sexual harassment. What a woman is wearing, what and how much she had to drink, and where she was at a certain time, is not an invitation to rape her.
 Rape culture affects us all, regardless of gender identity, sexuality, economic status, race, religion or age. Rooting it out means leaving behind restrictive definitions of gender and sexuality that limit a person’s right to define and express themselves.
-Certain characteristics such as sexual orientation, disability status or ethnicity, and some contextual factors, increase women’s vulnerability to violence.</h5>
+Certain characteristics such as sexual orientation, disability status or ethnicity, and some contextual factors, increase women’s vulnerability to violence.</h6>
           </div>
       </section>
 
-    
+
 
 <?php 
 
@@ -207,7 +208,7 @@ mysqli_close($conn);
 
 
 ?>
-<div class=' center'>
+<!-- <div class=' center'>
 <div class="deconstructed">
   
   <div class='purple-text'>Speak</div>
@@ -215,12 +216,12 @@ mysqli_close($conn);
   <div class='purple-text'>Speak</div>
   <div class='purple-text '>Speak</div>
 </div>
-</div>
+</div> -->
 
   <section>
     <div class= "container">
-      <h2 class="post center-align">Recent Post</h2>
-      <h6 class='green-text center'>_____________</h6>
+      <h3 class="post center-align">Recent Post</h3>
+      <h6 class='purple-text center'>_____________</h6>
     </div>
         <div class= "container">
             <div class="row">
@@ -234,9 +235,9 @@ mysqli_close($conn);
                         <div class="card-content">
                         <p><?php echo$admin_item["story"];?></p>
                         </div>
-                        <div class="card-action">
+                        <!-- <div class="card-action">
                         <a href="#">Read more</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <?php }?>
@@ -249,18 +250,14 @@ mysqli_close($conn);
 <br>
 <div class="para">
 
-</div>
-
-
-
-
-
+</div>    
 <br>
 
 
-<!--footer-->
-   <div class="footer">
+<footer class="page-footer purple">
+   <!-- <div class="footer">
        <div class="footer-content">
+       <footer class="page-footer purple center"> -->
             <!--<div class="footer-section about">
                 <footer class="page-footer purple center">
                   <div class='container'>
@@ -286,7 +283,7 @@ mysqli_close($conn);
                </div>
                <br>-->
             
-               </div>
+               <!-- </div> -->
                
            <!--</div>
            <div class="footer-section links">
@@ -322,21 +319,25 @@ mysqli_close($conn);
            </div>
        </div>-->
 
-
-       <div class="footer-bottom">
-           &copy;Fight Against Rape | Designed by PearlsAfrica Team-8
-                </div>
-    
-       <div class="ins">
+       <div class="footer-copyright">
+            <div class="container">
+            &copy;Fight Against Rape | Designed by PearlsAfrica Team-8
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+              <div class="ins">
                    <a href="#"><i class="fab fa-facebook"></i></a>
                    <a href="#"><i class="fab fa-instagram"></i></a>
                    <a href="#"><i class="fab fa-twitter"></i></a>
                    <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
-   </div>
- </div>
-</section>
-
+            </div>
+          </div>
+        </footer>
+       <!-- <div class="footer-bottom">
+           &copy;Fight Against Rape | Designed by PearlsAfrica Team-8
+                </div> -->
+    
+     
+  
    <script>
   $(document).ready(function(){
       $('.carousel.carousel-slider').carousel({
@@ -349,6 +350,7 @@ mysqli_close($conn);
       $('.parallax').parallax();
       $('.materialboxed').materialbox();
       $('.sidenav').sidenav();
+      
 
 
 
@@ -358,7 +360,7 @@ mysqli_close($conn);
 
     
     <!-- Compiled and minified JavaScript -->
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!--jquery-->
     <script src="//code.tidio.co/0tvvgfewzghszonp8qn2eb0tzuugvo25.js" async></script>

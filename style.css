@@ -231,7 +231,9 @@
     transform: translateX(-135%);
   }
 }
-
+.footer-bottom{
+  background-color: purple;
+}
 
 
 
