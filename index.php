@@ -97,6 +97,8 @@
     <h5>Rape is sexual assault in which you didn’t agree to. It can happen to anyone, and if you've been raped, it's not your fault regardless of whether you were sober, knew your attacker, had willingly had sex with them before, the clothes you were wearing, or anything else.Rape is a felony, which is one of the most serious types of crimes.</h5>
     <div class="row">
       <div class="col l6 m6 s12">
+        <h5> Rape is a traumatic experience that impacts the victims in a physical,psychological and social way.Even though the effects and aftermath of rape differentiate among the victims.Individuals tends to suffer more among this three cases.</h5>
+      </div>
 
       <div class="col l6 m6 s12 purple white-text"><!--add purple background-->
        <!-- <p class="text1">Websites like this,___, are here to see you through the aftermath of rape, from speaking out to getting mental and medical care and possibly preventing similar cases.</p>-->
