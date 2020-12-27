@@ -63,13 +63,9 @@
          clear: both;
        }
 
-       .col.s12.l6{
+       
 
-       }
-
-       .card-content{
-         background-color: violet;
-       }
+       
  
       .img-container{
         background-image: url(image/image6.jpg);
@@ -88,14 +84,14 @@
         margin-top: 200px;
       }
 
-      h4{
+      /*h4{
         font-size: 7em;
         font-family: "Shadows into Light";
-      }
+      }*/
     
         .parallax-container{
             background-image: url("image/image5.jpg");
-            height: 80%;
+            height: 70%;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
