@@ -191,7 +191,7 @@ Certain characteristics such as sexual orientation, disability status or ethnici
 
 <?php 
 
-$conn = mysqli_connect("localhost","root","","rapeproject");
+$conn = mysqli_connect("3.9.173.117","temi","temi123","rapeproject");
 if(!$conn){
     echo "connection error:";
 };
