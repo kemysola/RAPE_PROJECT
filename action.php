@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost","adekemi","1234","rapeproject");
+$conn = mysqli_connect("3.9.173.117","temi","temi123","rapeproject");
 if(!$conn){
     echo "connection error:";
 };
