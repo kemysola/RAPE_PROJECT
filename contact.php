@@ -78,7 +78,7 @@
                 <i class="material-icons prefix">phone</i>
 
       <input type="text" name="phonenumber" required>
-      <label for ="phoneno">Phone Number</label>
+      <label for ="phoneno">Phone No</label>
   </div>
 </div>
 </div>
